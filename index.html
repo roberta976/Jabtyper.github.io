@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JabTyper</title>
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Poppins:wght@700&family=Raleway:wght@700&display=swap" rel="stylesheet">
+</head>
+
+
+<body>
+    <div class="container">
+        <div class="row">
+          <div class="col-sm header">
+            <h1>JabTyper</h1>
+          </div>
+        </div>
+        <p class="lead">
+          Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus.
+        </p>
+        <div class="nome-jogador">
+          <div class="input-group flex-nowrap">
+            <span class="input-group-text" id="addon-wrapping"> </span>
+            <input type="text" class="form-control" placeholder="Nome do Jogador" aria-label="Username" aria-describedby="addon-wrapping">
+          </div>
+        </div>
+        
+        <br>
+        <div class="conjunto">
+          <div class="row ">
+            
+            <div class="col-sm palavras">
+              <h6><span id="tamanho-frase"> </span> Palavras</h6>
+            </div>
+            <div class="col-sm tempo">
+              <h6><span id="tempo">15</span> Segundos</h6>
+            </div>
+    
+        </div>
+        </div>
+         
+        <br>
+        <div class="barra">
+          <div class="progress">
+            <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+        </div>
+        
+        <br>
+        <div class="texto">
+          <textarea id="campo-digitacao" cols="60" rows="4"></textarea>
+      </div>
+      <div class="botao">
+        <button type="button" class="btn btn-restart"> </button>
+      </div>
+     
+          <div class="row ">
+            <div class="conjunto-2">
+              <div class="col-sm caracteres-digitados">
+                 <h6> <span id="caracteres-digitados">0</span> Caracteres digitados</h6>
+            
+              </div>
+              <div class="col-sm palavras-digitadas">
+                 <h6> <span id="palavras-digitadas">0</span> Palavras digitadas</h6>
+              </div>
+  
+            </div>
+          </div>
+        <br>
+        <h4>Placar</h4>
+        <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">Nome do Jogador</th>
+                <th scope="col">Pontuação</th>
+              </tr>
+            </thead>
+            
+          </table>
+
+
+
+      </div>
+    <script src="./js/jquery.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
+
+    
