@@ -1,0 +1,195 @@
+body {
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.5;
+    color: #ffffff;
+    background-color: #161515;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+}
+.row {
+    --bs-gutter-x: -15rem;
+}
+.col-sm .header{
+    background-color: #161515;
+    box-shadow: 0px 4px 4px #00000036;
+    margin-bottom: 30px;
+}
+h1{
+    font-size: 3.5em;
+    text-align: center;
+    line-height: 2.0;
+}
+.lead{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.0em;
+    text-align: center;
+}
+.nome-jogador{
+    justify-content: center;
+    display: flex;
+}
+.input-group{
+    width: 70%; 
+}
+.input-group-text {
+    display: flex;
+    align-items: center;
+    padding: 15px 20px;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    border: none;
+    border-bottom: 2px solid #AE3263;
+    text-align: center;
+    white-space: nowrap;
+    background-color: #8f8f8f2f;
+    background-image: url('../img/person.svg');
+    background-size: cover;
+    border-radius: .25rem;
+}
+.form-control {
+    display: block;
+    width: 100%;
+    padding: .379rem .75rem;
+    font-size: 1em;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    line-height: 1.5;
+    color: #bcbcbc8e;
+    background-color: #706f7027;
+    background-clip: padding-box;
+    border: none;
+    outline: 0;
+    border-bottom: 2px solid #AE3263;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.form-control:focus{
+    outline: 0;
+    border: none;
+    background-color: #706f7027;
+    border-bottom: 2px solid #AE3263;
+    color: #bcbcbc8e;
+}
+.conjunto{
+    text-align: center;
+}
+.palavras, .tempo {
+    background-color: #d8d8d800;
+    margin-bottom: 10px;
+    border: none;
+    text-align: center;
+    
+}
+#tamanho-frase, #tempo{
+    color: #ffffff;
+    margin-right: 15px;
+    font-size: 1.3em;
+    border-radius: 100px;
+    background-color: #19178385;
+    padding: 5px;
+}
+.barra{
+    display: flex;
+    justify-content: center;
+}
+
+.progress {
+    display: flex;
+    height: 1rem;
+    overflow: hidden;
+    font-size: .75rem;
+    background-color: #262627;
+    border-radius: .25rem;
+    width: 550px;
+}
+.progress-bar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    background: linear-gradient(to right, #AE3263, #181783);
+    transition: width 700ms ease;
+    width: 100%;
+
+}
+@keyframes animando-progress{
+    0% { width: 0%; }
+    100% { width: 100%}
+}
+.texto{
+    display: flex;
+    justify-content: center;
+}
+#campo-digitacao{
+    border: 2px solid #181783;
+    background-color: #00000013;
+    color: #ffffff;
+    font-size: 1.2em;
+    outline: 0;
+    border-radius: 3px;
+    font-family: 'Raleway', sans-serif;
+ 
+}
+.botao{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.btn {
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    border-radius: 100px;
+    background-color: #b1b1b111;
+    background-image: url('../img/arrow-counterclockwise.svg');
+    background-size: 25px;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+    outline: none;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.btn-restart {
+   
+    border: 2px solid #AE3263;
+}
+.btn-restart:hover{
+    background-color: #a12154;
+    border: 2px solid #a12154;
+}
+.conjunto-2{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 4fr 4fr;
+}
+.caracteres-digitados, .palavras-digitadas {
+    background-color: #d8d8d800;
+    margin-bottom: 10px;
+    border: none;
+    text-align: center;
+    
+}
+.table {
+    width: 100%;
+    margin-bottom: 1rem;
+    color: #e4e2e2;
+    vertical-align: top;
+    border-color: #AE3263;
+   
+}
